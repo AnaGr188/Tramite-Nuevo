@@ -1,9 +1,6 @@
 <h1>Trámite CECYTEM</h1>
-</head> 
-<body>
   <h2>Colegio de Estudios Científicos y Tecnológicos del Estado de México</h2>
   <p class="nota">Los campos con * son necesarios.</p>
-  <div class="container">
     <form>
       <h3>Datos del Alumno</h3>
       <h2>*Plantel:</h2>
@@ -24,8 +21,3 @@
         <option value="CPCD">Cambio de Plantel Carrera Diferente - CPCD</option>
         <!-- Puedes añadir más opciones si se necesitan -->
       </select>
-    </form>
-  </div>
-</body>
-</head>
-</html>
