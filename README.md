@@ -1,1 +1,31 @@
-# Tramite-Nuevo
+<h1>Trámite CECYTEM</h1>
+</head> 
+<body>
+  <h2>Colegio de Estudios Científicos y Tecnológicos del Estado de México</h2>
+  <p class="nota">Los campos con * son necesarios.</p>
+  <div class="container">
+    <form>
+      <label for="plantel">*Plantel:</label>
+      <input type="text" id="plantel" name="plantel" required>
+      <h3>Datos del Alumno</h3>
+      <h2>*Plantel:</h2>
+      <label for="control">*Número de Control:</label>
+      <input type="text" id="control" name="control" required>
+      <label for="nombre">*Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="carrera">*Carrera:</label>
+      <input type="text" id="carrera" name="carrera" required>
+      <label for="semestre">*Semestre:</label>
+      <input type="text" id="semestre" name="semestre" required>
+      <label for="situacion">*Situación Actual:</label>
+      <input type="text" id="situacion" name="situacion" required>
+      <h3>Selecciona el Tipo de Trámite</h3>
+      <label for="tramite">*Tipo de Trámite:</label>
+      <select id="tramite" name="tramite">
+        <option value="CPCD">Cambio de Plantel Carrera Diferente - CPCD</option>
+        <!-- Puedes añadir más opciones si se necesitan -->
+      </select>
+    </form>
+  </div>
+</body>
+</html>
